@@ -225,7 +225,7 @@ const Dashboard = () => {
                         <p>You can schedule 1 more ride</p>
                         <button
                           onClick={toggleForm}
-                          className="p-2 bg-primary rounded-lg text-white hover:bg-hover transition-all duration-300 text-sm sm:text-base"
+                          className="p-2 bg-primary rounded-lg text-white hover:bg-hover transition-all duration-300 text-sm sm:text-base mt-2"
                         >
                           Click here
                         </button>

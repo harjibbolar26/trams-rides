@@ -36,7 +36,12 @@ const DeleteDialog = ({
           Cancelling your trip to {booking} will remove it from the list of your
           bookings
           <DialogFooter>
-            <Button type="button" variant="secondary" onClick={handleDelete}>
+            <Button
+              type="button"
+              variant={"destructive"}
+              onClick={handleDelete}
+              className="bg-red-500 text-white hover:bg-red-300 hover:text-white"
+            >
               Delete
             </Button>
             <DialogClose asChild>

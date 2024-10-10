@@ -306,7 +306,7 @@ const BookingForm = ({ isOpen, onOpen, editingRide }: BookingFormProps) => {
           </DialogHeader>
           <div className="p-4">{renderForm()}</div>
           <DialogFooter>
-            <Button onClick={onOpen}>Cancel</Button>
+            <Button onClick={onOpen} variant={"destructive"}>Cancel</Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
@@ -325,7 +325,7 @@ const BookingForm = ({ isOpen, onOpen, editingRide }: BookingFormProps) => {
         <div className="p-4">{renderForm()}</div>
         <DrawerFooter className="pt-2">
           <DrawerClose asChild>
-            <Button variant="outline" onClick={() => onOpen()}>
+            <Button variant="destructive" onClick={() => onOpen()}>
               Cancel
             </Button>
           </DrawerClose>
