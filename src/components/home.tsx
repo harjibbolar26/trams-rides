@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "./navbar";
 import SideNav from "./sidenav";
 import BookingForm from "./bookingform";
